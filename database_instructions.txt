@@ -1,0 +1,10 @@
+DB configurations:
+file path: project_folder/applicaitons/config/database.php
+replace parameters depend in your database credentials
+	'hostname' => 'localhost',
+	'username' => '',
+	'password' => '',
+	'database' => 'nwrb_hris',
+
+if your url is secure or https kindly modify the base_url variable http to https
+file path: project_folder/applicaitons/config/config.php

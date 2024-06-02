@@ -1,0 +1,94 @@
+/* Labels          *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.app-label {
+	text-align: right;
+	font-weight: bold;
+}
+
+.workflow-label {
+	font-weight: 600;
+	padding-top: 6px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+
+/* Buttons         *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+
+.btn-workflow {
+	margin: 0 auto;
+	width: 80;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	color: #fff;
+	background-color: #589cff;
+	font-family: Roboto,"Helvetica Neue",sans-serif;
+	font-weight: 500;
+}
+
+
+
+/* Workflow Main   *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.workflow-main {
+	border: 1px solid #ccc;
+}
+	/* Workflow Header */
+	.workflow-header {
+		border: 1px solid #ccc;
+		padding: 8px;
+	}
+	/* Workflow Body */
+	.workflow-body {
+	
+	}
+		/* Workflow Toolbar */
+		.workflow-toolbar {
+			border: 1px solid #ccc;
+			padding: 6px !important;
+		}
+			 /* Workflow Options */
+			.workflow-options {
+				/*text-align: center;*/
+				height: 154;
+				overflow: auto;
+				padding: 12px !important;
+				border: 1px solid #ccc;
+				background-color: #f9fffd;
+			}
+			 /* Workflow Element Selection */
+			.workflow-element-selection
+			{
+				height: 200px;
+				overflow-y: auto;
+			}
+				
+			/* Element Properties */
+			.workflow-element-properties {
+				height: 130;
+				overflow: auto;
+				padding: 12px !important;
+				border: 1px solid #ccc;
+				background-color: #f9fffd;
+			}
+				/* Workflow Element Properties Control */
+				.workflow-element-properties-control {
+					margin-bottom: 12px  !important;
+				}
+		/* Canvas */ 
+		.workflow-canvas-holder {
+			overflow-x: auto;
+		}
+			.workflow-canvas {
+				border: 1px solid #ccc;
+			}
+			/*Fabric.js Canvas*/
+			.canvas-container {
+				 margin: 0 auto ;
+             }
+    /* Workflow Footer */
+	.workflow-footer {
+		border: 1px solid #ccc;
+	}     
+             
+
+
+

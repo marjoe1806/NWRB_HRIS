@@ -1,0 +1,30 @@
+{	
+	"Code":"0",
+	"Message":"Successfully fetched!",
+	"Data":[
+		{
+			"id":"1",
+			"position":"POS 1",
+			"description":"Position 1",
+			"status":"INACTIVE",
+			"iconpath":"https://www.tlcpay.ph/EDRMS/assets/position-icons/thumbnails/Position-1.jpg",
+			"date_created": "2016-10-06 16:29:50"
+		},
+		{
+			"id":"2",
+			"position":"POS 2",
+			"description":"Position 2",
+			"status":"ACTIVE",
+			"iconpath":"https://www.tlcpay.ph/EDRMS/assets/position-icons/thumbnails/Position-1.jpg",
+			"date_created": "2016-10-06 16:29:50"
+		},
+		{
+			"id":"3",
+			"position":"POS 3",
+			"description":"Position 3",
+			"status":"ACTIVE",
+			"iconpath":"https://www.tlcpay.ph/EDRMS/assets/position-icons/thumbnails/Position-1.jpg",
+			"date_created": "2016-10-06 16:29:50"
+		}
+	]
+}

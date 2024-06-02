@@ -1,0 +1,46 @@
+{	
+	"Code":"0",
+	"Message":"Successfully fetched!",
+	"Data":[
+		{
+			"process_id":"1",
+			"sequence_num":"1",
+			"position_id":"1",
+			"archiveid": "1",
+			"position":"Project Officer",
+			"status":"APPROVED",
+			"icon":"https://www.tlcpay.ph/EDRMS/assets/position-icons/Project-Officer.png",
+			"date_created": "2016-10-06 16:29:50"
+		},
+		{
+			"process_id":"1",
+			"sequence_num":"2",
+			"position_id":"2",
+			"archiveid": "1",
+			"position":"Section Head",
+			"status":"PENDING",
+			"icon":"https://www.tlcpay.ph/EDRMS/assets/position-icons/Section-Head.png",
+			"date_created": "2016-10-06 16:29:50"
+		},
+		{
+			"process_id":"1",
+			"sequence_num":"3",
+			"position_id":"3",
+			"archiveid": "1",
+			"position":"Division Chief",
+			"status":"PENDING",
+			"icon":"https://www.tlcpay.ph/EDRMS/assets/position-icons/Division-Chief.png",
+			"date_created": "2016-10-06 16:29:50"
+		},
+		{
+			"process_id":"1",
+			"sequence_num":"4",
+			"position_id":"4",
+			"archiveid": "1",
+			"position":"I/O Officer",
+			"status":"PENDING",
+			"icon":"https://www.tlcpay.ph/EDRMS/assets/position-icons/I-O-Officer.png",
+			"date_created": "2016-10-06 16:29:50"
+		}
+	]
+}

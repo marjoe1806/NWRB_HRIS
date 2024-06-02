@@ -1,0 +1,15 @@
+Options +FollowSymLinks
+Options -Indexes
+DirectoryIndex index.php
+RewriteEngine on
+RewriteCond $1 !^(index\.php|resources|images|assets|libs|css|js|img|robots\.txt|favicon\.ico)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+php_value upload_max_filesize 128M  
+php_value post_max_size 500M
+php_value max_input_vars 10000
+php_value suhosin.get.max_vars 10000
+php_value suhosin.post.max_vars 10000
+php_value suhosin.request.max_vars 10000 
+php_value max_execution_time 300

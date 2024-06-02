@@ -1,0 +1,41 @@
+{	
+	"Code":"0",
+	"Message":"Successfully fetched!",
+	"Data":
+		{"details":
+			[
+				{
+					"documentid": "1",
+					"submittedby":"Marc Millare",
+					"division":"Division 1",
+					"section":"RPDB",
+					"title":"Signatory",
+					"description":"Sign before approval",
+					"type":"Monthly Report",
+					"status":"TEMPORARY",
+					"datesubmitted": "2016-10-06 16:29:50"
+				},
+				{
+					"documentid": "2",	
+					"submittedby":"Marc Millare 2",
+					"division":"Division 2",
+					"section":"RPDB",
+					"title":"Signatory 2",
+					"description":"Sign before approval 2",
+					"type":"Monthly Report 2",
+					"status":"TEMPORARY",
+					"datesubmitted": "2016-10-06 16:29:50"
+				},{
+					"documentid": "3",
+					"submittedby":"Marc Millare 3",
+					"division":"Division 2",
+					"section":"RPDB",	
+					"title":"Signatory 3",
+					"description":"Sign before approval 3",
+					"type":"Monthly Report 3",
+					"status":"TEMPORARY",
+					"datesubmitted": "2016-10-06 16:29:50"
+				}
+			]
+		}
+}

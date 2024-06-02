@@ -1,0 +1,47 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "Nested Stack",
+    "Resources": {
+        "IAMStack": {
+            "Type": "AWS::CloudFormation::Stack",
+            "Properties": {
+                "TemplateURL": "",
+                "TimeoutInMinutes": "5"
+            }
+        },
+        "EC2Stack": {
+            "Type": "AWS::CloudFormation::Stack",
+            "Properties": {
+                "TemplateURL": "",
+                "TimeoutInMinutes": "5"
+            }
+        },
+        "S3Stack": {
+            "Type": "AWS::CloudFormation::Stack",
+            "Properties": {
+                "TemplateURL": "",
+                "TimeoutInMinutes": "5"
+
+            }
+        },
+        "DynamoStack": {
+            "Type": "AWS::CloudFormation::Stack",
+            "Properties": {
+                "TemplateURL": "",
+                "TimeoutInMinutes": "5"
+            }
+        }
+    },
+    "Outputs": {
+        "AccessKey": {
+            "Value": {"Fn::GetAtt": ["IAMStack", "Outputs.AccessKey"]},
+            "Description": "AccessKey Created"
+        },
+        "InstanceId": {
+            "Value": {"Fn::GetAtt": ["EC2Stack", "Outputs.InstanceId"]},
+            "Description": "ID of virtual server"
+        }
+
+    }
+
+}

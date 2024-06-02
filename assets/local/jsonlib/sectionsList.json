@@ -1,0 +1,33 @@
+{	
+	"Code":"0",
+	"Message":"Successfully fetched!",
+	"Data":[
+		{
+			"id":"1",
+			"divisionid":"1",
+			"section":"Sec 1",
+			"division":"Div 1",
+			"description":"Section 1",
+			"status":"INACTIVE",
+			"date_created": "2016-10-06 16:29:50"
+		},
+		{
+			"id":"2",
+			"divisionid":"1",
+			"section":"Sec 2",
+			"division":"Div 1",
+			"description":"Section 2",
+			"status":"ACTIVE",
+			"date_created": "2016-10-06 16:29:50"
+		},
+		{
+			"id":"3",
+			"divisionid":"1",
+			"section":"Sec 3",
+			"division":"Div 1",
+			"description":"Section 3",
+			"status":"ACTIVE",
+			"date_created": "2016-10-06 16:29:50"
+		}
+	]
+}
